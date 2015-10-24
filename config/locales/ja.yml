@@ -1,0 +1,7 @@
+# Japanese strings go here for Rails i18n
+en:
+  setting_parent_done_ratio: "親チケットの進捗率の算出方法"
+  setting_parent_done_ratio_default: "デフォルト"
+  setting_parent_done_ratio_always_calculate: "常に子チケットの値から算出"
+  setting_parent_done_ratio_up_to_default: "常に子チケットの値から算出 (ステータスごとの進捗率まで)"
+

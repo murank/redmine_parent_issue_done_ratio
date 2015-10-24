@@ -1,0 +1,6 @@
+<p>
+<%= setting_label(:parent_done_ratio) %>
+<%= select_tag('settings[parent_done_ratio]',
+                options_for_select(Issue::PARENT_DONE_RATIO_OPTIONS.collect {|i| [l("setting_parent_done_ratio_#{i}"), i]}, @settings['parent_done_ratio'])
+                ).html_safe %>
+</p>

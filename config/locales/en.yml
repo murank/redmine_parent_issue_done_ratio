@@ -1,0 +1,7 @@
+# English strings go here for Rails i18n
+en:
+  setting_parent_done_ratio: "Calculate the issue done ratio of parent issues with"
+  setting_parent_done_ratio_default: "Default Behavior"
+  setting_parent_done_ratio_always_calculate: "Always calculate with the children"
+  setting_parent_done_ratio_up_to_default: "Always calculate with the children (up to the default done ratio)"
+
